@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    padding: 20px;
+}
+
+.time-date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 56.25px;
+    font-weight: 400;
+    color: #2DBDB1;
+    margin-bottom: -8px;
+}
+
+.ampm-seconds {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.ampm {
+    margin-top: 11px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2DBDB1;
+}
+
+.seconds {
+    font-size: 15px;
+    font-weight: 400;
+    color: #2DBDB1;
+}
+
+.date {
+    font-size: 24px;
+    font-weight: 400;
+    color: #4B5853;
+}
